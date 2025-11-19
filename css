@@ -1,0 +1,101 @@
+/* --- นี่คือไฟล์ style.css --- */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* สีพื้นหลังเว็บ (เทาอ่อน) */
+    color: #333; /* สีตัวอักษรหลัก (เทาเข้ม) */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #ffffff; /* สีพื้นหลังเนื้อหา (ขาว) */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eeeeee;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50; /* สีชื่อเรื่อง (น้ำเงินเข้ม/เทา) */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #7f8c8d; /* สีข้อความรอง (เทาอมฟ้า) */
+    margin: 5px 0 0 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ddd;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+/* นี่คือสีฟ้าหลักของธีม 
+*/
+h2 {
+    color: #2980b9; /* สีฟ้าหลัก */
+    border-bottom: 2px solid #2980b9; /* เส้นใต้สีฟ้าหลัก */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: #34495e; /* สีหัวข้อย่อย (น้ำเงินเข้ม/เทา) */
+    margin-bottom: 5px;
+}
+
+#contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact ul li {
+    margin-bottom: 8px;
+}
+
+#contact ul li strong {
+    display: inline-block;
+    width: 100px;
+}
+
+#skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.job, .education-item {
+    margin-bottom: 15px;
+}
+
+.job p, .education-item p {
+    margin: 5px 0;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #999;
+}
